@@ -1,0 +1,197 @@
+    
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+    }
+    :root{
+        scroll-behavior: smooth;
+    }
+    header{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)),url('giphy.gif');
+        height: 100px;
+        width: 100%;
+        background-size: cover;
+    }
+    .offers{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10vh 0;
+    }
+    .t1{
+        width: 24.5vw;
+        height: 30vh;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.411)), url(t1.jpg);
+        animation: BottomtoTop 1s ease-in;
+        background-size: 130%;
+        background-position: center;
+        transition: all 1s;
+    }
+    
+    .t1:hover{
+        background-size: 100%;
+        background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url(t1.jpg);
+    }
+    
+    .t2{
+        width: 24.5vw;
+        height: 30vh;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.411)), url(t2.jpg);
+        animation: ToptoBottom 1s ease-in;
+        background-size: 130%;
+        background-position: center;
+        transition: all 1s;
+    }
+    
+    .t2:hover{
+        background-size: 100%;
+        background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url(t2.jpg);
+    } 
+    
+    .t3{
+        width: 24.5vw;
+        height: 30vh;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.411)), url(t3.jpg);
+        animation: BottomtoTop 1s ease-in;
+        background-size: 130%;
+        background-position: center;
+        transition: all 1s;
+    }
+    
+    .t3:hover{
+        background-size: 100%;
+        background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url(t3.jpg);
+    } 
+    
+    .t4{
+        width: 24.5vw;
+        height: 30vh;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.411)), url(t4.jpg);
+        animation: ToptoBottom 1s ease-in;
+        background-size: 130%;
+        background-position: center;
+        transition: all 1s;
+    }
+    
+    .t4:hover{
+        background-size: 100%;
+        background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url(t4.jpg);
+    } 
+    
+    .t5{
+        width: 24.5vw;
+        height: 30vh;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.411)), url(t5.jpg);
+        animation: ToptoBottom 1s ease-in;
+        background-size: 130%;
+        background-position: center;
+        transition: all 1s;
+    }
+    
+    .t5:hover{
+        background-size: 100%;
+        background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url(t5.jpg);
+    } 
+    
+    .t6{
+        width: 24.5vw;
+        height: 30vh;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.411)), url(t6.jpg);
+        animation: BottomtoTop 1s ease-in;
+        background-size: 130%;
+        background-position: center;
+        transition: all 1s;
+    }
+    
+    .t6:hover{
+        background-size: 100%;
+        background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url(t6.jpg);
+    } 
+    
+    .t7{
+        width: 24.5vw;
+        height: 30vh;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.411)), url(t7.png);
+        animation: ToptoBottom 1s ease-in;
+        background-size: 130%;
+        background-position: center;
+        transition: all 1s;
+    }
+    
+    .t7:hover{
+        background-size: 100%;
+        background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url(t7.png);
+    } 
+    
+    .t8{
+        width: 24.5vw;
+        height: 30vh;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.411)), url(t8.jpg);
+        animation: BottomtoTop 1s ease-in;
+        background-size: 130%;
+        background-position: center;
+        transition: all 1s;
+    }
+    
+    .t8:hover{
+        background-size: 100%;
+        background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url(t8.jpg);
+    } 
+    .t9{
+        width: 24.5vw;
+        height: 30vh;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.411)), url(t9.jpg);
+        animation: BottomtoTop 1s ease-in;
+        background-size: 130%;
+        background-position: center;
+        transition: all 1s;
+    }
+    
+    .t9:hover{
+        background-size: 100%;
+        background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url(t9.jpg);
+    } 
+    .t10{
+        width: 24.5vw;
+        height: 30vh;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.411)), url(t10.jpg);
+        animation: BottomtoTop 1s ease-in;
+        background-size: 130%;
+        background-position: center;
+        transition: all 1s;
+    }
+    
+    .t10:hover{
+        background-size: 100%;
+        background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url(t10.jpg);
+    } 
+    .t11{
+        width: 24.5vw;
+        height: 30vh;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.411)), url(t11.jpg);
+        animation: BottomtoTop 1s ease-in;
+        background-size: 130%;
+        background-position: center;
+        transition: all 1s;
+    }
+    
+    .t11:hover{
+        background-size: 100%;
+        background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url(t11.jpg);
+    } 
+    .t12{
+        width: 24.5vw;
+        height: 30vh;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.411)), url(t12.jpg);
+        animation: BottomtoTop 1s ease-in;
+        background-size: 130%;
+        background-position: center;
+        transition: all 1s;
+    }
+    
+    .t12:hover{
+        background-size: 100%;
+        background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url(t12.jpg);
+    } 

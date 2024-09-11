@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Login page</title>
+</head>
+<!-- <body background="R.jpg"> -->
+<body>
+    <nav class="main">
+        
+        <ul>
+            <li><a href="index.html">Continue as guest</a></li>
+            <li><a href="aaa">Cancel</a></li>
+            <li><a href="#About Us">About Us</a></li>
+        </ul>
+    </nav>
+    <div class="lable" style="display:inline-flex;vertical-align:top; padding-top: 0%; padding-left: 20px;">
+    <img src="1905297.png" alt="">
+
+    </div>
+    <div style="display:inline-flex;padding-top: 0%; font-size: larger; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: aliceblue;"><br><br><br><br><p>P2-Gameing</p></div>
+    </div>
+
+    <center>
+    <form action="">
+        <div class="container">
+            <img src="png-clipart-computer-icons-login-scalable-graphics-email-accountability-blue-logo-thumbnail-removebg-preview.png" alt="lo">
+            <label for="uname"><p style="color: aliceblue; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Mobile number : </p></label>
+            <input type="text" placeholder="Enter Mobile number " name="uname" required id="uname">
+            <label for="pass"><p style="color: aliceblue; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Enter the otp : </p></label>
+            <input type="password" placeholder="Enter the otp :" name="otp" required id="otp" ><br><br>
+            <label for="pass"><p style="color: aliceblue; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Create new Password :</p></label>
+            <input type="password" placeholder="Enter new password" name="pass" required id="npass"><br><br>
+            <input type="password" placeholder="confirm password" name="pass" required id="cpass"><br>
+            <br><br>
+            <button type="button" id="ok" class="login" onclick="validate();"><p>signup</p></button><br>
+            <label style="color: azure;">
+                <input type="checkbox" checked="checked" name="remember">Remember me<br>
+            </label>
+        </div>
+    </form>
+    </center>
+
+</body>
+</html>
+<script>
+    function validate()
+    {
+        var lenU = document.getElementById("uname").value.length;
+        var lenP = document.getElementById("npass").value.length;
+        var c = document.getElementById("cpass").value;
+        var p = document.getElementById("npass").value;
+        var o = document.getElementById("otp").value;
+        if(lenU ==0 || lenP==0)
+        {
+        alert("please Mobile number and password");
+        }
+        else if(lenU !=10)
+        {
+            alert("Error in mobile number");
+        }
+        else if(lenP <=9)
+        {
+            alert("Password must have minimun 8 characters");
+        }
+        else if(o!=98445){
+            alert("OTP doesn't Match");
+        }
+        else if(c!=p)
+        {
+            alert("Password Not matching");
+        }
+        else
+        {
+            alert('Account is been created');
+        const button = document.getElementById('ok')
+        button.id = 'mainButton'
+        button.addEventListener('click', () => {document.location='index.html'})
+        }
+    }
+
+    </script>
